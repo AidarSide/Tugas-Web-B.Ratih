@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sagi Store</title>
+</head>
+<body style="background-color: rgb(70, 70, 70);">
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="firstname">SAGI</div>
+                <div class="lastname">STORE</div>
+            </div>
+            <ul class="navigation">
+                <li><a href="/Beranda.html">Beranda</a></li>
+                <li><a href="/" class="active">Joki</a></li>
+                <li><a href="/About Me.html">About Me</a></li>
+                <li><img src="PART 2.jpeg" alt=""></li>
+            </ul>
+        </nav>
+    </div>
+  
+    <div class="container">
+      <br>
+      <br>
+        <h1>List Joki Form</h1>
+        <form action="#" method="post" class="joki-form">
+            <div class="form-group">
+                <label for="loginVia">Login Via:</label>
+                <select id="loginVia" name="loginVia">
+                    <option value="Moonton">Moonton</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Google">Google</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="userId">User ID & Nick Name:</label>
+                <input type="text" id="userId" name="userId" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contact">Email/No. Hp/Moonton ID:</label>
+                <input type="text" id="contact" name="contact" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Catatan Untuk Penjok:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
